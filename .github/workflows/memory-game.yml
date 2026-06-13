@@ -1,0 +1,104 @@
+name: Memory Card Game
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  play:
+    runs-on: ubuntu-latest
+    if: startsWith(github.event.issue.title, 'mem-')
+
+    permissions:
+      contents: write
+      issues: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Parse action from issue title
+        id: parse
+        run: |
+          TITLE="${{ github.event.issue.title }}"
+          if [[ "$TITLE" == "mem-reset" ]]; then
+            echo "action=reset" >> $GITHUB_OUTPUT
+          elif [[ "$TITLE" =~ ^mem-flip-([0-9]+)$ ]]; then
+            IDX="${BASH_REMATCH[1]}"
+            if [ "$IDX" -ge 0 ] && [ "$IDX" -le 15 ]; then
+              echo "action=flip" >> $GITHUB_OUTPUT
+              echo "index=$IDX" >> $GITHUB_OUTPUT
+            else
+              echo "action=invalid" >> $GITHUB_OUTPUT
+            fi
+          else
+            echo "action=invalid" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Reset game
+        if: steps.parse.outputs.action == 'reset'
+        run: node game/init.js
+
+      - name: Process flip
+        if: steps.parse.outputs.action == 'flip'
+        run: node game/move.js ${{ steps.parse.outputs.index }}
+
+      - name: Update README
+        if: steps.parse.outputs.action != 'invalid'
+        run: node game/render.js
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+
+      - name: Commit and push
+        if: steps.parse.outputs.action != 'invalid'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md game/state.json
+          git diff --staged --quiet || git commit -m "🧩 mem: ${{ steps.parse.outputs.action }} by @${{ github.event.issue.user.login }}"
+          git push
+
+      - name: Close issue with comment
+        if: steps.parse.outputs.action != 'invalid'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const action = '${{ steps.parse.outputs.action }}';
+            const msg = action === 'reset'
+              ? '🔄 Game reset! A new shuffled board is live on the [README](https://github.com/${{ github.repository }}#readme).'
+              : '✅ Card flipped! Check the [README](https://github.com/${{ github.repository }}#readme) to see the board update.';
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: msg + '\n\n> _Auto-closed by the Memory Card Game bot_ 🤖'
+            });
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: 'closed'
+            });
+
+      - name: Handle invalid
+        if: steps.parse.outputs.action == 'invalid'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: '❌ Invalid action. Use the card links in the README to play!'
+            });
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: 'closed'
+            });

@@ -6,7 +6,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Harshul-Purohit)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/_harshul135_)
 [![Mail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:harshulpurohit@gmail.com)
-[![GitHub Followers](https://img.shields.io/github/followers/Harshul-Purohit?logo=github&style=for-the-badge&color=ec4899&labelColor=181824)](https://github.com/Harshul-Purohit)
+[![GitHub Followers](https://img.shields.io/github/followers/Harshul-Purohit?logo=github&style=for-the-badge&color=ec4899&labelColor=0d1117)](https://github.com/Harshul-Purohit)
 
 </div>
 
@@ -69,14 +69,14 @@ const harshul = {
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Harshul-Purohit&show_icons=true&count_private=true&title_color=6366f1&text_color=ffffff&icon_color=ec4899&bg_color=181824&hide_border=true" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Harshul-Purohit&langs_count=10&title_color=6366f1&text_color=ffffff&icon_color=ec4899&bg_color=181824&hide_border=true&layout=compact&custom_title=Top%20Languages" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Harshul-Purohit&show_icons=true&count_private=true&title_color=6366f1&text_color=ffffff&icon_color=ec4899&bg_color=00000000&hide_border=true" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Harshul-Purohit&langs_count=10&title_color=6366f1&text_color=ffffff&icon_color=ec4899&bg_color=00000000&hide_border=true&layout=compact&custom_title=Top%20Languages" />
 
 </div>
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Harshul-Purohit&stroke=ffffff&background=181824&ring=6366f1&fire=ec4899&currStreakNum=ffffff&currStreakLabel=6366f1&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Harshul-Purohit&stroke=6366f1&background=00000000&ring=6366f1&fire=ec4899&currStreakNum=ffffff&currStreakLabel=6366f1&sideNums=ffffff&sideLabels=ffffff&dates=aaaaaa&hide_border=true" />
 
 </div>
 
@@ -96,29 +96,32 @@ const harshul = {
 
 <div align="center">
 
-[![Harshul's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Harshul-Purohit&bg_color=181824&color=6366f1&line=ec4899&point=ffffff&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Harshul's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Harshul-Purohit&bg_color=00000000&color=6366f1&line=ec4899&point=ffffff&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
 
 ---
 
-<!-- TIC-TAC-TOE-START -->
-## 🎮 Play Tic-Tac-Toe With Me!
+<!-- MEMORY-GAME-START -->
+## 🧩 Memory Card Game
 
-> You are **X** · Bot is **O** · Click an empty cell to make your move!
+> Match all 8 pairs to win! Click a **❓** card to flip it. Find its matching emoji to score a pair!
+>
+> ✅ = Matched pair · 👁️ = Currently flipped · ❓ = Hidden card
 
-👾 **Your turn! Click an empty cell below to make your move (you are X)**
+🧩 **Click any ❓ card to flip it!** Moves: `0` · Matched: `0/8` pairs
 
-| | | |
-|:---:|:---:|:---:|
-| [&nbsp;&nbsp;&nbsp;](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=ttt-move-0&labels=ttt-move-0&body=Making+move+0) | [&nbsp;&nbsp;&nbsp;](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=ttt-move-1&labels=ttt-move-1&body=Making+move+1) | [&nbsp;&nbsp;&nbsp;](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=ttt-move-2&labels=ttt-move-2&body=Making+move+2) |
-| [&nbsp;&nbsp;&nbsp;](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=ttt-move-3&labels=ttt-move-3&body=Making+move+3) | [&nbsp;&nbsp;&nbsp;](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=ttt-move-4&labels=ttt-move-4&body=Making+move+4) | [&nbsp;&nbsp;&nbsp;](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=ttt-move-5&labels=ttt-move-5&body=Making+move+5) |
-| [&nbsp;&nbsp;&nbsp;](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=ttt-move-6&labels=ttt-move-6&body=Making+move+6) | [&nbsp;&nbsp;&nbsp;](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=ttt-move-7&labels=ttt-move-7&body=Making+move+7) | [&nbsp;&nbsp;&nbsp;](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=ttt-move-8&labels=ttt-move-8&body=Making+move+8) |
+| 🃏 | 🃏 | 🃏 | 🃏 |
+|:---:|:---:|:---:|:---:|
+| [❓](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=mem-flip-0&labels=mem-flip-0&body=Flipping+card+0) | [❓](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=mem-flip-1&labels=mem-flip-1&body=Flipping+card+1) | [❓](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=mem-flip-2&labels=mem-flip-2&body=Flipping+card+2) | [❓](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=mem-flip-3&labels=mem-flip-3&body=Flipping+card+3) |
+| [❓](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=mem-flip-4&labels=mem-flip-4&body=Flipping+card+4) | [❓](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=mem-flip-5&labels=mem-flip-5&body=Flipping+card+5) | [❓](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=mem-flip-6&labels=mem-flip-6&body=Flipping+card+6) | [❓](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=mem-flip-7&labels=mem-flip-7&body=Flipping+card+7) |
+| [❓](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=mem-flip-8&labels=mem-flip-8&body=Flipping+card+8) | [❓](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=mem-flip-9&labels=mem-flip-9&body=Flipping+card+9) | [❓](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=mem-flip-10&labels=mem-flip-10&body=Flipping+card+10) | [❓](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=mem-flip-11&labels=mem-flip-11&body=Flipping+card+11) |
+| [❓](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=mem-flip-12&labels=mem-flip-12&body=Flipping+card+12) | [❓](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=mem-flip-13&labels=mem-flip-13&body=Flipping+card+13) | [❓](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=mem-flip-14&labels=mem-flip-14&body=Flipping+card+14) | [❓](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=mem-flip-15&labels=mem-flip-15&body=Flipping+card+15) |
 
-**Scoreboard** — 🧑 You: `0` wins · 🤖 Bot: `0` wins · 🤝 Draws: `0`
+**Pairs matched:** `0/8` · **Moves:** `0` · [🔄 Reset Game](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=mem-reset&labels=mem-reset&body=reset)
 
-> Powered by GitHub Actions — your move triggers a workflow that updates this board automatically!
-<!-- TIC-TAC-TOE-END -->
+> ⚡ Powered by GitHub Actions — each flip triggers a workflow that updates the board in real time!
+<!-- MEMORY-GAME-END -->
 
 ---
 

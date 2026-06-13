@@ -1,0 +1,8 @@
+{
+  "cards": [],
+  "flipped": [],
+  "matched": [],
+  "moves": 0,
+  "gameOver": false,
+  "firstFlip": null
+}
