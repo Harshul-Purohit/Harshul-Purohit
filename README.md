@@ -102,56 +102,12 @@ const harshul = {
 
 ---
 
-<!-- GAMES-START -->
-## 🎮 Mini Games
-
 <div align="center">
-<table><tr>
-<td width="50%" valign="top">
-
-### 🧩 Memory Match
-
-<div>
-<canvas id="m" width="0" height="0" style="display:none"></canvas>
+  
+![snake gif](https://github.com/Harshul-Purohit/Harshul-Purohit/blob/output/github-snake-dark.svg)
+  
 </div>
 
-</td>
-<td width="50%" valign="top">
-
-### 🐍 Snake
-
-</td>
-</tr></table>
-</div>
-
-<div align="center">
-
-<!-- Game 1: Memory Match -->
-<details open>
-<summary><b>🧩 Memory Match</b> — Flip cards and find pairs!</summary>
-
-<br>
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/Harshul-Purohit/Harshul-Purohit/main/assets/memory-game.svg" alt="Memory Match Game" />
-</p>
-
-</details>
-
-<!-- Game 2: Snake -->
-<details open>
-<summary><b>🐍 Snake</b> — Use arrow keys to play!</summary>
-
-<br>
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/Harshul-Purohit/Harshul-Purohit/main/assets/snake-game.svg" alt="Snake Game" />
-</p>
-
-</details>
-
-</div>
-<!-- GAMES-END -->
 
 ---
 
