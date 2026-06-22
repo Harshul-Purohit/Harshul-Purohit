@@ -102,26 +102,56 @@ const harshul = {
 
 ---
 
-<!-- MEMORY-GAME-START -->
-## 🧩 Memory Card Game
+<!-- GAMES-START -->
+## 🎮 Mini Games
 
-> Match all 8 pairs to win! Click a **❓** card to flip it. Find its matching emoji to score a pair!
->
-> ✅ = Matched pair · 👁️ = Currently flipped · ❓ = Hidden card
+<div align="center">
+<table><tr>
+<td width="50%" valign="top">
 
-🧩 **Click any ❓ card to flip it!** Moves: `0` · Matched: `0/8` pairs
+### 🧩 Memory Match
 
-| 🃏 | 🃏 | 🃏 | 🃏 |
-|:---:|:---:|:---:|:---:|
-| [❓](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=mem-flip-0&labels=mem-flip-0&body=Flipping+card+0) | [❓](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=mem-flip-1&labels=mem-flip-1&body=Flipping+card+1) | [❓](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=mem-flip-2&labels=mem-flip-2&body=Flipping+card+2) | [❓](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=mem-flip-3&labels=mem-flip-3&body=Flipping+card+3) |
-| [❓](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=mem-flip-4&labels=mem-flip-4&body=Flipping+card+4) | [❓](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=mem-flip-5&labels=mem-flip-5&body=Flipping+card+5) | [❓](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=mem-flip-6&labels=mem-flip-6&body=Flipping+card+6) | [❓](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=mem-flip-7&labels=mem-flip-7&body=Flipping+card+7) |
-| [❓](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=mem-flip-8&labels=mem-flip-8&body=Flipping+card+8) | [❓](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=mem-flip-9&labels=mem-flip-9&body=Flipping+card+9) | [❓](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=mem-flip-10&labels=mem-flip-10&body=Flipping+card+10) | [❓](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=mem-flip-11&labels=mem-flip-11&body=Flipping+card+11) |
-| [❓](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=mem-flip-12&labels=mem-flip-12&body=Flipping+card+12) | [❓](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=mem-flip-13&labels=mem-flip-13&body=Flipping+card+13) | [❓](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=mem-flip-14&labels=mem-flip-14&body=Flipping+card+14) | [❓](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=mem-flip-15&labels=mem-flip-15&body=Flipping+card+15) |
+<div>
+<canvas id="m" width="0" height="0" style="display:none"></canvas>
+</div>
 
-**Pairs matched:** `0/8` · **Moves:** `0` · [🔄 Reset Game](https://github.com/Harshul-Purohit/Harshul-Purohit/issues/new?title=mem-reset&labels=mem-reset&body=reset)
+</td>
+<td width="50%" valign="top">
 
-> ⚡ Powered by GitHub Actions — each flip triggers a workflow that updates the board in real time!
-<!-- MEMORY-GAME-END -->
+### 🐍 Snake
+
+</td>
+</tr></table>
+</div>
+
+<div align="center">
+
+<!-- Game 1: Memory Match -->
+<details open>
+<summary><b>🧩 Memory Match</b> — Flip cards and find pairs!</summary>
+
+<br>
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/Harshul-Purohit/Harshul-Purohit/main/assets/memory-game.svg" alt="Memory Match Game" />
+</p>
+
+</details>
+
+<!-- Game 2: Snake -->
+<details open>
+<summary><b>🐍 Snake</b> — Use arrow keys to play!</summary>
+
+<br>
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/Harshul-Purohit/Harshul-Purohit/main/assets/snake-game.svg" alt="Snake Game" />
+</p>
+
+</details>
+
+</div>
+<!-- GAMES-END -->
 
 ---
 
