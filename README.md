@@ -2,10 +2,11 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=Full-Stack+Developer+%F0%9F%92%BB;AI+%26+Data+Science+Enthusiast+%F0%9F%A4%96;Professional+Bug+Creator.+Amateur+Bug+Fixer.+%F0%9F%90%9B;Always+Building+Something+Cool+%E2%9A%A1" alt="Typing SVG" />
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harshul-purohit-76b92a2b6/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Harshul-Purohit)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/_harshul135_)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Harshul_Purohit/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harshul-purohit-76b92a2b6/)
 [![Mail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:harshulpurohit@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/_harshul135_/)
 [![GitHub Followers](https://img.shields.io/github/followers/Harshul-Purohit?logo=github&style=for-the-badge&color=ec4899&labelColor=0d1117)](https://github.com/Harshul-Purohit)
 
 </div>
@@ -118,8 +119,9 @@ const harshul = {
 | Platform | Link |
 |----------|------|
 | 💼 LinkedIn | [harshul-purohit](https://www.linkedin.com/in/harshul-purohit-76b92a2b6/) |
-| 📸 Instagram | [@_harshul135_](https://www.instagram.com/_harshul135_) |
+| 📸 Instagram | [@_harshul135_](https://www.instagram.com/_harshul135_/) |
 | 💻 GitHub | [Harshul-Purohit](https://github.com/Harshul-Purohit) |
+| 🧩 LeetCode | [Harshul_Purohit](https://leetcode.com/u/Harshul_Purohit/) |
 | 📧 Email | [harshulpurohit@gmail.com](mailto:harshulpurohit@gmail.com) |
 
 </div>
