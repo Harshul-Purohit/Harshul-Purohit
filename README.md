@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=Full-Stack+Developer+%F0%9F%92%BB;AI+%26+Data+Science+Enthusiast+%F0%9F%A4%96;Professional+Bug+Creator.+Amateur+Bug+Fixer.+%F0%9F%90%9B;Always+Building+Something+Cool+%E2%9A%A1" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=Full-Stack+Developer+%F0%9F%92%BB;AI+%26+Data+Science+Enthusiast+%F0%9F%A4%96;Professional+Bug+Creator.+Amateur+Bug+Fixer.;Always+Building+Something+Cool+%E2%9A%A1" alt="Typing SVG" />
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Harshul-Purohit)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Harshul_Purohit/)
