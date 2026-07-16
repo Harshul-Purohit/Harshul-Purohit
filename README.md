@@ -23,7 +23,7 @@ const harshul = {
   location: "India 🇮🇳",
   currentlyLearning: ["Java Backend Development", "DSA in Java"],
   openTo: ["Hackathons", "Open Source", "Web Dev", "AI Projects"],
-  funFact: "Professional bug creator. Amateur bug fixer. 🐛",
+  funFact: "🐛 Professional bug creator,Amateur bug fixer. 🐛",
   contact: "harshulpurohit@gmail.com"
 };
 ```
