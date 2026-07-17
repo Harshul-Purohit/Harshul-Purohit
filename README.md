@@ -70,8 +70,8 @@ const harshul = {
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Harshul-Purohit&show_icons=true&count_private=true&title_color=6366f1&text_color=ffffff&icon_color=ec4899&bg_color=00000000&hide_border=true" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Harshul-Purohit&langs_count=10&title_color=6366f1&text_color=ffffff&icon_color=ec4899&bg_color=00000000&hide_border=true&layout=compact&custom_title=Top%20Languages" />
+<img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Harshul-Purohit&show_icons=true&count_private=true&title_color=6366f1&text_color=ffffff&icon_color=ec4899&bg_color=00000000&hide_border=true" />
+<img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Harshul-Purohit&langs_count=10&title_color=6366f1&text_color=ffffff&icon_color=ec4899&bg_color=00000000&hide_border=true&layout=compact&custom_title=Top%20Languages" />
 
 </div>
 
